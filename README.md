@@ -9,7 +9,7 @@
 ##### 1.安装Docker
 [安装docker，安装docker-compose](http://get.daocloud.io/#install-docker)
 ##### 2.下载`docker-compose.yml`并启动服务
-下载 `wget https://raw.githubusercontent.com/zsnmwy/Tieba-Cloud-Sign/master/docker-compose.yml`  
+下载 `wget https://raw.githubusercontent.com/Maskbugzero/Tieba-Cloud-Sign/master/docker-compose.yml`  
 开始部署 `docker-compose up -d` 参数`-d`为后台运行。(主要时间消耗在下载，启动不用啥时间)  
 这里已经包含了`MySQL`部署
 ##### 3.进入网页配置

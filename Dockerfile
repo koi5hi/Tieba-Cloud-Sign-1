@@ -14,7 +14,7 @@ ENV DB_HOST='127.0.0.1'\
     CSRF='true'
 
 
-RUN git clone https://github.com/Maskbugzero/Tieba-Cloud-Sign.git /srv/www/dist && \
+RUN git clone https://github.com/MoeNetwork/Tieba-Cloud-Sign.git /srv/www/dist && \
     mv /srv/www/dist/* /srv/www && \ 
     rm -r /var/cache/apk && \
     rm -r /usr/share/man && \

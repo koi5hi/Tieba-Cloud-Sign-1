@@ -4,13 +4,10 @@ name: Tieba-Cloud-Sign
 
 # Controls when the action will run. 
 on:
-  # 任意推送都会触发构建
-  push:
 # 定时调度
   schedule:
-    - cron: "0 0 * * 1"
+    - cron: "0 0 1 * *"
 
-  # Allows you to run this workflow manually from the Actions tab
 # 可以手动触发
   workflow_dispatch:
     inputs:

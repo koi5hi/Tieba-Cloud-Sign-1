@@ -8,7 +8,7 @@ services:
       DB_USER: root
       DB_PASSWD: janejane123456
       DB_NAME: tiebacloud
-      CSRF: "true"
+      CSRF: "false"
     ports:
       - "80:8080"
     links:
@@ -23,4 +23,4 @@ services:
       MYSQL_DATABASE: tiebacloud
       MYSQL_ROOT_PASSWORD: janejane123456
     volumes:
-      - /opt/tieba/mysql:/var/lib/mysql
+      - ./mysql:/var/lib/mysql

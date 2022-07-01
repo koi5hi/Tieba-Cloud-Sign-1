@@ -6,6 +6,10 @@ name: Tieba-Cloud-Sign
 on:
 # 手动触发
   workflow_dispatch:
+  schedule:
+    - cron: 0 0 1 * *
+env:
+  IMAGE_NAME: tieba-cloud-sign
 
 jobs:
   buildx:
@@ -38,7 +42,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./Dockerfile
+          file: docker/Dockerfile
 # 所需要的体系结构，可以在 Available platforms 步骤中获取所有的可用架构
           platforms: linux/amd64,linux/arm64/v8,linux/arm/v6
 # 镜像推送时间

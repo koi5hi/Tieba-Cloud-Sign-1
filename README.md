@@ -2,7 +2,7 @@
 支持linux/amd64、linux/arm64、arm/v6
 
 # 使用文档
-请点击 https://blog.5772447.xyz/posts/58593/
+请点击 https://5772447.xyz/posts/58593/
 
 # 项目地址
 [MoeNetwork/Tieba-Cloud-Sign](https://github.com/MoeNetwork/Tieba-Cloud-Sign)
